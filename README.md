@@ -1,72 +1,48 @@
-# Docus Default Starter
+# MedPay Saúde - Documentação
 
-> A beautiful, minimal starter for creating documentation with Docus
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-blue)](https://MolinariBR.github.io/medicine/)
 
-This is the default Docus starter template that provides everything you need to build beautiful documentation sites with Markdown and Vue components.
+## 📋 Sobre o Projeto
 
-> [!TIP]
-> If you're looking for i18n support, check out the [i18n starter](https://github.com/nuxt-themes/docus/tree/main/.starters/i18n).
+**MedPay Saúde** é uma plataforma inovadora de intermediação de pagamentos desenvolvida especificamente para o setor da saúde brasileiro. Permite que pacientes paguem procedimentos médicos com opções flexíveis de parcelamento, enquanto clínicas e hospitais obtêm controle financeiro em tempo real e agilidade nos recebimentos.
 
-## ✨ Features
+## 🎯 Diferenciais
 
-- 🎨 **Beautiful Design** - Clean, modern documentation theme
-- 📱 **Responsive** - Mobile-first responsive design  
-- 🌙 **Dark Mode** - Built-in dark/light mode support
-- 🔍 **Search** - Full-text search functionality
-- 📝 **Markdown Enhanced** - Extended markdown with custom components
-- 🎨 **Customizable** - Easy theming and brand customization
-- ⚡ **Fast** - Optimized for performance with Nuxt 4
-- 🔧 **TypeScript** - Full TypeScript support
+- **IA Proprietária**: Sistema anti-fraude revolucionário com machine learning
+- **Compliance Healthcare**: Privacy by Design específico para dados médicos (LGPD)
+- **Experiência Inovadora**: UX mobile-first com Progressive Web App (PWA)
+- **Integrações Nativas**: Conexão direta com sistemas médicos brasileiros
 
-## 🚀 Quick Start
+## 📚 Documentação
 
-```bash
-# Install dependencies
-npm install
+Esta documentação completa está organizada em seções específicas:
 
-# Start development server
-npm run dev
-```
+### 📄 Seções Disponíveis
 
-Your documentation site will be running at `http://localhost:3000`
+1. **[Visão Geral do Projeto](https://MolinariBR.github.io/medicine/projeto/)** - Objetivos, módulos e tecnologias
+2. **[Brainstorm e Inovação](https://MolinariBR.github.io/medicine/brainstorm/)** - Como a IA transforma os pagamentos médicos
+3. **[Compliance e Segurança](https://MolinariBR.github.io/medicine/compliance/)** - Abordagem LGPD e segurança de dados
+4. **[Cronograma e Execução](https://MolinariBR.github.io/medicine/cronograma/)** - Plano de desenvolvimento em 20 semanas
+5. **[Arquitetura Técnica](https://MolinariBR.github.io/medicine/diagrama/)** - Infraestrutura e integrações
 
-## 📁 Project Structure
+## 🚀 Acesso à Documentação
 
-```
-my-docs/
-├── content/              # Your markdown content
-│   ├── index.md         # Homepage
-│   ├── 1.getting-started/  # Getting started section
-│   └── 2.essentials/    # Essential documentation
-├── public/              # Static assets
-└── package.json         # Dependencies and scripts
-```
+A documentação está hospedada no GitHub Pages e pode ser acessada em:
+**[https://MolinariBR.github.io/medicine/](https://MolinariBR.github.io/medicine/)**
 
-## ⚡ Built with
+## 🛠️ Tecnologias Utilizadas
 
-This starter comes pre-configured with:
+- **Framework**: Jekyll com tema Just the Docs
+- **Hospedagem**: GitHub Pages
+- **Linguagem**: Markdown
+- **Diagramas**: Mermaid
 
-- [Nuxt 4](https://nuxt.com) - The web framework
-- [Nuxt Content](https://content.nuxt.com/) - File-based CMS
-- [Nuxt UI Pro](https://ui.nuxt.com/pro) - Premium UI components
-- [Nuxt Image](https://image.nuxt.com/) - Optimized images
-- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
-- [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
+## 📞 Contato
 
-## 📖 Documentation
+**Empresa**: Tria Inova  
+**Desenvolvedor**: Molinari  
+**Repositório**: [GitHub](https://github.com/MolinariBR/medicine)
 
-For detailed documentation on customizing your Docus project, visit the [Docus Documentation](https://docus.dev)
+---
 
-## 🚀 Deployment
-
-Build for production:
-
-```bash
-npm run build
-```
-
-The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
-
-## 📄 License
-
-[MIT License](https://opensource.org/licenses/MIT) 
+*Documentação gerada automaticamente via Jekyll - Tema Just the Docs*
