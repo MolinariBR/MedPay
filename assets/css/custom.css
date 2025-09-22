@@ -1,0 +1,44 @@
+/* Custom styles for MedPay Documentation */
+
+/* Reduce sidebar width */
+.site-nav {
+  width: 220px !important;
+  max-width: 220px !important;
+}
+
+/* Adjust main content margin */
+.site-main {
+  margin-left: 220px !important;
+}
+
+/* Dark theme adjustments for more matte look */
+body {
+  background-color: #1a1a1a;
+}
+
+.site-header {
+  background-color: #2a2a2a;
+  border-bottom: 1px solid #333;
+}
+
+.site-nav {
+  background-color: #2a2a2a;
+  border-right: 1px solid #333;
+}
+
+/* Make links more subtle */
+.site-nav a {
+  color: #ccc;
+}
+
+.site-nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: #2a2a2a;
+  border-top: 1px solid #333;
+  color: #ccc;
+}

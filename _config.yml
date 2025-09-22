@@ -2,13 +2,16 @@ title: "MedPay Saúde - Documentação"
 description: "Documentação completa do projeto MedPay Saúde - Plataforma de intermediação de pagamentos para saúde"
 remote_theme: pmarsceill/just-the-docs
 
+# Color scheme: light or dark
+color_scheme: dark
+
 # Enable or disable the site search
 search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
   "Repositório GitHub":
-    - "//github.com/MolinariBR/medicine"
+    - "//github.com/MolinariBR/MedPay"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
