@@ -1,6 +1,6 @@
 # MedPay Saúde - Documentação
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-blue)](https://MolinariBR.github.io/medicine/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-blue)](https://MolinariBR.github.io/MedPay/)
 
 ## 📋 Sobre o Projeto
 
@@ -19,16 +19,16 @@ Esta documentação completa está organizada em seções específicas:
 
 ### 📄 Seções Disponíveis
 
-1. **[Visão Geral do Projeto](https://MolinariBR.github.io/medicine/projeto/)** - Objetivos, módulos e tecnologias
-2. **[Brainstorm e Inovação](https://MolinariBR.github.io/medicine/brainstorm/)** - Como a IA transforma os pagamentos médicos
-3. **[Compliance e Segurança](https://MolinariBR.github.io/medicine/compliance/)** - Abordagem LGPD e segurança de dados
-4. **[Cronograma e Execução](https://MolinariBR.github.io/medicine/cronograma/)** - Plano de desenvolvimento em 20 semanas
-5. **[Arquitetura Técnica](https://MolinariBR.github.io/medicine/diagrama/)** - Infraestrutura e integrações
+1. **[Visão Geral do Projeto](https://MolinariBR.github.io/MedPay/projeto/)** - Objetivos, módulos e tecnologias
+2. **[Brainstorm e Inovação](https://MolinariBR.github.io/MedPay/brainstorm/)** - Como a IA transforma os pagamentos médicos
+3. **[Compliance e Segurança](https://MolinariBR.github.io/MedPay/compliance/)** - Abordagem LGPD e segurança de dados
+4. **[Cronograma e Execução](https://MolinariBR.github.io/MedPay/cronograma/)** - Plano de desenvolvimento em 20 semanas
+5. **[Arquitetura Técnica](https://MolinariBR.github.io/MedPay/diagrama/)** - Infraestrutura e integrações
 
 ## 🚀 Acesso à Documentação
 
 A documentação está hospedada no GitHub Pages e pode ser acessada em:
-**[https://MolinariBR.github.io/medicine/](https://MolinariBR.github.io/medicine/)**
+**[https://MolinariBR.github.io/MedPay/](https://MolinariBR.github.io/MedPay/)**
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -41,7 +41,7 @@ A documentação está hospedada no GitHub Pages e pode ser acessada em:
 
 **Empresa**: Tria Inova  
 **Desenvolvedor**: Molinari  
-**Repositório**: [GitHub](https://github.com/MolinariBR/medicine)
+**Repositório**: [GitHub](https://github.com/MolinariBR/MedPay)
 
 ---
 
