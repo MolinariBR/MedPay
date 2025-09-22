@@ -1,9 +1,9 @@
 title: "MedPay Saúde - Documentação"
 description: "Documentação completa do projeto MedPay Saúde - Plataforma de intermediação de pagamentos para saúde"
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 
-# Color scheme: light or dark
-color_scheme: dark
+# Color scheme: light, dark, or auto (follows system preference)
+color_scheme: auto
 
 # Enable or disable the site search
 search_enabled: true
