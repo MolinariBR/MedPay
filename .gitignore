@@ -19,6 +19,9 @@ logs
 .idea
 .eslintcache
 
+# Documentação interna (não versionar)
+doc/
+
 # Local env files
 .env
 .env.*
