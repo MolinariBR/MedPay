@@ -11,109 +11,197 @@
   margin-left: 220px !important;
 }
 
-/* Dark mode adjustments - force pure black theme */
+/* FORCE PURE BLACK THEME - Override all Just the Docs colors */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --body-background-color: #000000 !important;
-    --sidebar-color: #111111 !important;
-    --main-background-color: #000000 !important;
-    --border-color: #333333 !important;
-    --text-color: #ffffff !important;
-    --link-color: #cccccc !important;
-    --feedback-color: #444444 !important;
-  }
-
-  body {
+  /* Body and main backgrounds */
+  body, html, .site-main {
     background-color: #000000 !important;
     color: #ffffff !important;
   }
 
+  /* Header */
   .site-header {
-    background-color: #111111 !important;
+    background-color: #000000 !important;
     border-bottom: 1px solid #333333 !important;
+    color: #ffffff !important;
   }
 
+  /* Navigation sidebar */
   .site-nav {
-    background-color: #111111 !important;
+    background-color: #000000 !important;
     border-right: 1px solid #333333 !important;
+    color: #ffffff !important;
   }
 
-  /* Make links more subtle */
-  .site-nav a {
+  /* Navigation links */
+  .site-nav a, .site-nav a:visited {
     color: #cccccc !important;
   }
 
-  .site-nav a:hover {
+  .site-nav a:hover, .site-nav a:focus {
     color: #ffffff !important;
     background-color: #333333 !important;
   }
 
-  /* Footer styling */
+  /* Active/current page link */
+  .site-nav a.active, .site-nav a.active:hover {
+    color: #ffffff !important;
+    background-color: #444444 !important;
+  }
+
+  /* Footer */
   .site-footer {
-    background-color: #111111 !important;
+    background-color: #000000 !important;
     border-top: 1px solid #333333 !important;
     color: #cccccc !important;
   }
 
-  /* Override any purple/blue tones */
-  .site-nav, .site-header, .site-footer {
-    background: #111111 !important;
+  /* Content area */
+  .main-content {
+    background-color: #000000 !important;
+    color: #ffffff !important;
   }
 
-  /* Code blocks and other elements */
-  pre, code {
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+  }
+
+  /* Paragraphs and text */
+  p, li, td, th {
+    color: #ffffff !important;
+  }
+
+  /* Links in content */
+  .main-content a, .main-content a:visited {
+    color: #cccccc !important;
+  }
+
+  .main-content a:hover {
+    color: #ffffff !important;
+  }
+
+  /* Code blocks */
+  pre, code, .highlight {
     background-color: #111111 !important;
+    color: #ffffff !important;
     border: 1px solid #333333 !important;
+  }
+
+  /* Tables */
+  table {
+    background-color: #000000 !important;
+    border-color: #333333 !important;
+  }
+
+  th, td {
+    border-color: #333333 !important;
+  }
+
+  /* Search and other elements */
+  .search-input, input, textarea, select {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+    border-color: #333333 !important;
+  }
+
+  /* Override any purple/blue theme colors */
+  * {
+    border-color: #333333 !important;
   }
 }
 
-/* Light mode adjustments - pure white theme */
+/* FORCE PURE WHITE THEME */
 @media (prefers-color-scheme: light) {
-  :root {
-    --body-background-color: #ffffff !important;
-    --sidebar-color: #f8f8f8 !important;
-    --main-background-color: #ffffff !important;
-    --border-color: #e0e0e0 !important;
-    --text-color: #000000 !important;
-    --link-color: #0066cc !important;
-    --feedback-color: #f0f0f0 !important;
-  }
-
-  body {
+  /* Body and main backgrounds */
+  body, html, .site-main {
     background-color: #ffffff !important;
     color: #000000 !important;
   }
 
+  /* Header */
   .site-header {
-    background-color: #f8f8f8 !important;
+    background-color: #ffffff !important;
     border-bottom: 1px solid #e0e0e0 !important;
+    color: #000000 !important;
   }
 
+  /* Navigation sidebar */
   .site-nav {
     background-color: #f8f8f8 !important;
     border-right: 1px solid #e0e0e0 !important;
+    color: #000000 !important;
   }
 
-  /* Make links appropriate for light mode */
-  .site-nav a {
+  /* Navigation links */
+  .site-nav a, .site-nav a:visited {
     color: #333333 !important;
   }
 
-  .site-nav a:hover {
+  .site-nav a:hover, .site-nav a:focus {
     color: #000000 !important;
     background-color: #e0e0e0 !important;
   }
 
-  /* Footer styling for light mode */
+  /* Active/current page link */
+  .site-nav a.active, .site-nav a.active:hover {
+    color: #000000 !important;
+    background-color: #cccccc !important;
+  }
+
+  /* Footer */
   .site-footer {
     background-color: #f8f8f8 !important;
     border-top: 1px solid #e0e0e0 !important;
     color: #666666 !important;
   }
 
-  /* Code blocks and other elements */
-  pre, code {
+  /* Content area */
+  .main-content {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+  }
+
+  /* Paragraphs and text */
+  p, li, td, th {
+    color: #000000 !important;
+  }
+
+  /* Links in content */
+  .main-content a, .main-content a:visited {
+    color: #0066cc !important;
+  }
+
+  .main-content a:hover {
+    color: #004499 !important;
+  }
+
+  /* Code blocks */
+  pre, code, .highlight {
     background-color: #f8f8f8 !important;
+    color: #000000 !important;
     border: 1px solid #e0e0e0 !important;
+  }
+
+  /* Tables */
+  table {
+    background-color: #ffffff !important;
+    border-color: #e0e0e0 !important;
+  }
+
+  th, td {
+    border-color: #e0e0e0 !important;
+  }
+
+  /* Search and other elements */
+  .search-input, input, textarea, select {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #e0e0e0 !important;
   }
 }
