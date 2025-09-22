@@ -11,70 +11,109 @@
   margin-left: 220px !important;
 }
 
-/* Dark mode adjustments - only apply when system prefers dark mode */
+/* Dark mode adjustments - force pure black theme */
 @media (prefers-color-scheme: dark) {
+  :root {
+    --body-background-color: #000000 !important;
+    --sidebar-color: #111111 !important;
+    --main-background-color: #000000 !important;
+    --border-color: #333333 !important;
+    --text-color: #ffffff !important;
+    --link-color: #cccccc !important;
+    --feedback-color: #444444 !important;
+  }
+
   body {
-    background-color: #1a1a1a;
+    background-color: #000000 !important;
+    color: #ffffff !important;
   }
 
   .site-header {
-    background-color: #2a2a2a;
-    border-bottom: 1px solid #333;
+    background-color: #111111 !important;
+    border-bottom: 1px solid #333333 !important;
   }
 
   .site-nav {
-    background-color: #2a2a2a;
-    border-right: 1px solid #333;
+    background-color: #111111 !important;
+    border-right: 1px solid #333333 !important;
   }
 
   /* Make links more subtle */
   .site-nav a {
-    color: #ccc;
+    color: #cccccc !important;
   }
 
   .site-nav a:hover {
-    color: #fff;
-    background-color: #333;
+    color: #ffffff !important;
+    background-color: #333333 !important;
   }
 
   /* Footer styling */
   .site-footer {
-    background-color: #2a2a2a;
-    border-top: 1px solid #333;
-    color: #ccc;
+    background-color: #111111 !important;
+    border-top: 1px solid #333333 !important;
+    color: #cccccc !important;
+  }
+
+  /* Override any purple/blue tones */
+  .site-nav, .site-header, .site-footer {
+    background: #111111 !important;
+  }
+
+  /* Code blocks and other elements */
+  pre, code {
+    background-color: #111111 !important;
+    border: 1px solid #333333 !important;
   }
 }
 
-/* Light mode adjustments - only apply when system prefers light mode */
+/* Light mode adjustments - pure white theme */
 @media (prefers-color-scheme: light) {
+  :root {
+    --body-background-color: #ffffff !important;
+    --sidebar-color: #f8f8f8 !important;
+    --main-background-color: #ffffff !important;
+    --border-color: #e0e0e0 !important;
+    --text-color: #000000 !important;
+    --link-color: #0066cc !important;
+    --feedback-color: #f0f0f0 !important;
+  }
+
   body {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
+    color: #000000 !important;
   }
 
   .site-header {
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #e9ecef;
+    background-color: #f8f8f8 !important;
+    border-bottom: 1px solid #e0e0e0 !important;
   }
 
   .site-nav {
-    background-color: #f8f9fa;
-    border-right: 1px solid #e9ecef;
+    background-color: #f8f8f8 !important;
+    border-right: 1px solid #e0e0e0 !important;
   }
 
   /* Make links appropriate for light mode */
   .site-nav a {
-    color: #495057;
+    color: #333333 !important;
   }
 
   .site-nav a:hover {
-    color: #212529;
-    background-color: #e9ecef;
+    color: #000000 !important;
+    background-color: #e0e0e0 !important;
   }
 
   /* Footer styling for light mode */
   .site-footer {
-    background-color: #f8f9fa;
-    border-top: 1px solid #e9ecef;
-    color: #6c757d;
+    background-color: #f8f8f8 !important;
+    border-top: 1px solid #e0e0e0 !important;
+    color: #666666 !important;
+  }
+
+  /* Code blocks and other elements */
+  pre, code {
+    background-color: #f8f8f8 !important;
+    border: 1px solid #e0e0e0 !important;
   }
 }
